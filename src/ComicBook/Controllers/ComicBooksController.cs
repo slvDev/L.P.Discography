@@ -10,7 +10,7 @@ namespace ComicBook.Controllers
     {
         public ActionResult Detail()
         {
-            return Redirect("/");
+            return View();
         }
     }
 }
