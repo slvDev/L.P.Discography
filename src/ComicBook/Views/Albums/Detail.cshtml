@@ -1,0 +1,38 @@
+﻿@model ComicBookGallery.Models.Album
+
+@{
+    ViewBag.Title = Model.AlbumTitle;
+    ViewBag.ShowBackBar = true;
+
+}
+
+<h2>@Model.AlbumTitle</h2>
+<div class="row">
+    <div class="col-md-6">
+        <div class="well">
+            <h5><label>Album Title:</label> @Model.AlbumTitle</h5>
+            <h5><label>Released:</label> @Model.Released</h5>
+            <h5><label>Label:</label> @Model.Label</h5>
+            <h5><label>Formats:</label> @Model.Formats</h5>
+            <h5><label>Favorite:</label> @(Model.Favorite ? "Yes" : "No")</h5>
+            @if (Model.Songs.Length > 0)
+            {
+                <h5>Songs:</h5>
+                <div>
+                    <ul>
+                        @foreach (var song in Model.Songs)
+                        {
+                        <li>@song.Title: @song.Duration</li>
+                        }
+                    </ul>
+                </div>
+            }
+        </div>
+        <h5>Description:</h5>
+        <div>@Html.Raw(Model.DescriptionHtml)</div>
+    </div>
+    <div class="col-md-6">
+        <img src="/Images/@Model.CoverImageFileName"
+             alt="@Model.AlbumTitle" class="img-responsive" />
+    </div>
+</div>
