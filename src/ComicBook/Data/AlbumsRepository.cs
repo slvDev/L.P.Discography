@@ -1,8 +1,8 @@
 ﻿using System;
-using ComicBookGallery.Models;
+using L.P.Discography.Models;
 
 
-namespace ComicBookGallery.Data
+namespace L.P.Discography.Data
 {
     public class AlbumsRepository
     {

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using ComicBookGallery.Models;
+using L.P.Discography.Models;
 
-namespace ComicBookGallery.Data
+namespace L.P.Discography.Data
 {
     public class ComicBookRepository
     {

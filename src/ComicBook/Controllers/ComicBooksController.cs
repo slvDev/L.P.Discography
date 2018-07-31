@@ -1,5 +1,5 @@
-﻿using ComicBookGallery.Data;
-using ComicBookGallery.Models;
+﻿using L.P.Discography.Data;
+using L.P.Discography.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Web;
 using System.Web.Mvc;
 
 
-namespace ComicBookGallery.Controllers
+namespace L.P.Discography.Controllers
 {
     public class ComicBooksController : Controller
     {

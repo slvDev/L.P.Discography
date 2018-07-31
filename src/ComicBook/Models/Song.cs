@@ -1,5 +1,5 @@
 ﻿using System;
-namespace ComicBookGallery.Models
+namespace L.P.Discography.Models
 {
     public class Song
     {       
