@@ -92,9 +92,9 @@
     <Content Include="Content\site.css" />
     <Content Include="Fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Images\bone-50.jpg" />
-    <Content Include="Images\the-amazing-spider-man-657.jpg" />
-    <Content Include="Images\the-amazing-spider-man-700.jpg" />
+    <Content Include="Images\Hybrid-Theory.jpg" />
+    <Content Include="Images\Meteora.jpg" />
+    <Content Include="Images\Minutes to Midnight.jpg" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -107,13 +107,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\ComicBooksController.cs" />
-    <Compile Include="Data\ComicBookRepository.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Artist.cs" />
-    <Compile Include="Models\ComicBook.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Data\AlbumsRepository.cs" />
     <Compile Include="Models\Album.cs" />
@@ -126,10 +122,8 @@
     <Content Include="Fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Fonts\glyphicons-halflings-regular.woff" />
     <None Include="packages.config" />
-    <Content Include="Views\ComicBooks\Detail.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\ComicBooks\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
